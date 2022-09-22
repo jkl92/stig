@@ -8,10 +8,10 @@ graphical
 
 %end
 
-%addon com_redhat_oscap
+%addon org_fedora_oscap
     content-type = scap-security-guide
-    datastream-id = scap_org.open-scap_datastream_from_xccdf_ssg-rhel9-xccdf-1.2.xml
-    xccdf-id = scap_org.open-scap_cref_ssg-rhel9-xccdf-1.2.xml
+    datastream-id = scap_org.open-scap_datastream_from_xccdf_ssg-rhel8-xccdf-1.2.xml
+    xccdf-id = scap_org.open-scap_cref_ssg-rhel8-xccdf-1.2.xml
     profile = xccdf_org.ssgproject.content_profile_stig_gui
 %end
 
